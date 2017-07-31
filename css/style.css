@@ -1,0 +1,138 @@
+.panel {
+	position: relative;
+    border: 1px solid;
+    max-width: 500px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6db3f2+0,54a3ee+50,3690f0+51,1e69de+100;Blue+Gloss+%233 */
+background: rgb(109,179,242); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(109,179,242,1) 0%, rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', endColorstr='#1e69de',GradientType=0 ); /* IE6-9 */
+
+margin: auto;
+}
+.panel ul li {
+    list-style: none;
+    display: inline-block;
+    /*padding: 20px;
+    border: ridge 2px;*/
+
+}
+
+.panel ul li {
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	
+	background: #80b5ea;
+	
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	/*padding:15px 24px;*/
+    
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    width: 50px;
+    height: 35px;
+    padding-top:15px;
+    text-align: center;
+}
+.panel ul li:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa));
+	background:-moz-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-webkit-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-o-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:-ms-linear-gradient(top, #80b5ea 5%, #bddbfa 100%);
+	background:linear-gradient(to bottom, #80b5ea 5%, #bddbfa 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa',GradientType=0);
+	background-color:#80b5ea;
+}
+.panel ul li:active {
+	position:relative;
+	top:1px;
+}
+
+li.selected {
+	cursor: not-allowed !important;
+	background: darkgray !important;
+	color:lightgray !important;
+}
+
+.count-panel {
+	float: left;
+}
+
+ .timer-panel {
+	 float: right;
+ }
+
+.count-panel, .timer-panel {
+	font-size: 16px;
+	font-weight: bold;
+	background: #6eb3b6;
+    width: 60px;
+    text-align: center;
+	padding: 10px;
+	margin: 2px;
+	border:2px inset lightblue;
+}
+
+.clearFix {
+	clear: both;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	
+}
+.running-num {
+	position: relative;
+    top: 35%;
+    text-align: center;
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+}
+
+.start-btn{
+	position: relative;
+    top: 50%;
+    text-align: center;
+
+}
+
+.start-btn button {
+	cursor: pointer;
+	background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.victory {
+	position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.54);
+    text-align: center;
+    top: 40%;
+}
+
